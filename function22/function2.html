@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>function</title>
+    <script>
+
+function jesuisenformation(el1){
+const array=el1.split('');
+
+const newarray2=[]
+
+for(i=0;i<array.length;i++){
+    // if(array[i]=="a"|| array[i]=="e"|| array[i]=="i"|| array[i]=="o"|| array[i]=="u"|| array[i]=="y"){
+        // newarray2.push(array[i])
+    
+const newvar="aeiouyAEIOUY"
+for(m=0;m<newvar.length;m++){
+    if(array[i]==newvar.charAt(m)){
+        newarray2.push(array[i])
+    }
+}
+
+    
+}
+console.log(newarray2.length)
+
+
+
+}
+    
+        
+
+
+    
+
+
+
+    jesuisenformation('salutMMKJSQHDKQJOOEEEIII')
+    jesuisenformation('enreevoir')
+
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+    </script>
+</head>
+<body>
+<input type="button" value="click here" onclick="click()">
+    
+</body>
+</html>
